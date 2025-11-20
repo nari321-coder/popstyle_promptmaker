@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>PopStyle Prompter | ファッション画像をAIプロンプトに変換！</title>
+    <meta name="title" content="PopStyle Prompter | ファッション画像をAIプロンプトに変換！" />
+    <meta name="description" content="お気に入りのファッション画像をアップロードするだけで、画像生成AI（ImageFXやMidjourney）で使えるPOPでクリエイティブなプロンプトを自動生成するツールです。" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://popstyle-prompter.app/" />
+    <meta property="og:title" content="PopStyle Prompter | ファッション画像をAIプロンプトに変換！" />
+    <meta property="og:description" content="お気に入りのファッション画像をアップロードするだけで、画像生成AIで使えるPOPでクリエイティブなプロンプトを自動生成するツールです。" />
+    <meta property="og:image" content="https://placehold.co/1200x630/FF90E8/1a1a1a?text=PopStyle+Prompter" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://popstyle-prompter.app/" />
+    <meta property="twitter:title" content="PopStyle Prompter | ファッション画像をAIプロンプトに変換！" />
+    <meta property="twitter:description" content="お気に入りのファッション画像をアップロードするだけで、画像生成AIで使えるPOPでクリエイティブなプロンプトを自動生成するツールです。" />
+    <meta property="twitter:image" content="https://placehold.co/1200x630/FF90E8/1a1a1a?text=PopStyle+Prompter" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              pop: ['"Mochiy Pop One"', 'sans-serif'],
+              outfit: ['"Outfit"', 'sans-serif'],
+            },
+            colors: {
+              'pop-pink': '#FF90E8',
+              'pop-yellow': '#FFC900',
+              'pop-cyan': '#23F0C7',
+              'pop-black': '#1a1a1a',
+              'pop-purple': '#A388EE',
+            },
+            boxShadow: {
+              'hard': '4px 4px 0px 0px #1a1a1a',
+              'hard-sm': '2px 2px 0px 0px #1a1a1a',
+              'hard-lg': '8px 8px 0px 0px #1a1a1a',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #fffbf0;
+        background-image: radial-gradient(#A388EE 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

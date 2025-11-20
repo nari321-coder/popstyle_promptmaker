@@ -1,0 +1,5 @@
+{
+  "name": "PopStyle Prompter",
+  "description": "ファッション画像を解析して、ImageFXなどで使えるPOPでクリエイティブなプロンプトを生成するツール",
+  "requestFramePermissions": []
+}
